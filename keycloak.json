@@ -1,0 +1,10 @@
+{
+    "realm": "Keycloak",
+    "auth-server-url": "http://localhost:8080/auth",
+    "ssl-required": "external",
+    "resource": "${client_account}",
+    "credentials": {
+      "secret": "secret-du-client"
+    },
+    "confidential-port": 0
+  }

@@ -1,0 +1,397 @@
+{"GetPolicy":
+{
+  "code" : "271",
+  "data" : {
+    "actuarialValue" : null,
+    "annualPremium" : 0,
+    "code" : "512",
+    "partnerName" : "First Name 748235 Name 639654",
+    "policyNumber" : "C000685",
+    "investedPremiumsTotal" : 228913.2105759,
+    "productName" : "ARS",
+    "archivalDate" : null,
+    "currency" : "EUR",
+    "termDate" : "2160-02-18",
+    "effectiveDate" : "2010-02-19",
+    "surrenderValue" : null,
+    "taxFramework" : {
+      "identifier" : "RegimeGeneral",
+      "code" : "180366",
+      "label" : "RegimeGeneral"
+    },
+    "paymentPeriodicity" : {
+      "identifier" : "ANN",
+      "code" : "180073",
+      "label" : "Annuel"
+    },
+    "paymentMode" : {
+      "identifier" : "CHEQUE",
+      "code" : "180367",
+      "label" : "Chèque"
+    },
+    "holder" : {
+      "identifier" : "0003379663",
+      "code" : "302",
+      "thirdPartyType" : "PHYSICAL_PERSON",
+      "name" : "First Name 390779 Name 864012",
+      "nationalIdentifier" : null,
+      "physicalPersonShortDesc" : {
+        "firstName" : "First Name 390779",
+        "code" : "302",
+        "birthDate" : "1964-06-02"
+      }
+    },
+    "policyStatus" : {
+      "identifier" : "FORCE",
+      "code" : "179981",
+      "label" : "En vigueur"
+    },
+    "premiumType" : {
+      "identifier" : "UNIQUEPREM",
+      "code" : "180099",
+      "label" : "Prime unique"
+    },
+    "taxCountry" : {
+      "identifier" : "F",
+      "code" : "180181",
+      "label" : "France"
+    },
+    "productType" : {
+      "identifier" : "INVESTMENT",
+      "code" : "180097",
+      "label" : "Investissement"
+    }
+  }
+}
+,
+"documents":
+{
+    "code" : "59",
+    "data" : [ {
+      "code" : "37",
+      "url" : "NOT AVAILABLE",
+      "documentType" : {
+        "identifier" : "D1CONT",
+        "code" : "180420",
+        "label" : "Document à la demande"
+      }
+    }, {
+      "code" : "36",
+      "url" : "NOT AVAILABLE",
+      "documentType" : {
+        "identifier" : "D1CONT",
+        "code" : "180420",
+        "label" : "Document à la demande"
+      }
+    }, {
+      "code" : "38",
+      "url" : "NOT AVAILABLE",
+      "documentType" : {
+        "identifier" : "D1CONT",
+        "code" : "180420",
+        "label" : "Document à la demande"
+      }
+    } ]
+  },
+  "beneficiaryclauses":
+  {
+    "code" : "82",
+    "data" : [ {
+      "cessionClauseCount" : 0,
+      "beneficiaryClauseCount" : 1,
+      "code" : "103",
+      "beneficiaryClauses" : [ {
+        "beneficiaryCount" : 0,
+        "reference" : "ENF",
+        "identifier" : "0000000003",
+        "isCession" : false,
+        "isAccepting" : false,
+        "code" : "107",
+        "description" : "Exclusivement mes enfants...",
+        "isIrravocable" : false,
+        "text" : null,
+        "clauseLevel" : 1,
+        "beneficiaryClauseType" : "AUTO_BEN"
+      } ],
+      "riskType" : {
+        "identifier" : "DEATH_ALL_CAUSES",
+        "code" : "180580",
+        "label" : "Décès (toutes causes)"
+      }
+    } ]
+  },
+  "customfields":
+  {
+    "code" : "61",
+    "data" : [ {
+      "identifier" : "clauseIna",
+      "code" : "302",
+      "editable" : true,
+      "label" : "Clause d'inaliénabilité",
+      "customFieldValue" : "Pas de clause d'inaliénabilité",
+      "mandatory" : false,
+      "customFieldType" : "STRING_LOV_TYPE",
+      "customFieldsPossibleValues" : [ {
+        "code" : "722",
+        "id" : "18",
+        "label" : "18 ans"
+      }, {
+        "code" : "721",
+        "id" : "19",
+        "label" : "19 ans"
+      }, {
+        "code" : "723",
+        "id" : "20",
+        "label" : "20 ans"
+      }, {
+        "code" : "724",
+        "id" : "21",
+        "label" : "21 ans"
+      }, {
+        "code" : "725",
+        "id" : "22",
+        "label" : "22 ans"
+      }, {
+        "code" : "726",
+        "id" : "23",
+        "label" : "23 ans"
+      }, {
+        "code" : "727",
+        "id" : "24",
+        "label" : "24 ans"
+      }, {
+        "code" : "728",
+        "id" : "25",
+        "label" : "25 ans"
+      }, {
+        "code" : "729",
+        "id" : "NO_CLAUSE",
+        "label" : "Pas de clause d'inaliénabilité"
+      } ]
+    }, {
+      "identifier" : "epargneHandicap",
+      "code" : "301",
+      "editable" : true,
+      "label" : "Epargne handicap",
+      "customFieldValue" : "false",
+      "mandatory" : false,
+      "customFieldType" : "BOOLEAN"
+    }, {
+      "identifier" : "ruptureEVie",
+      "code" : "303",
+      "editable" : true,
+      "label" : "Cas de rupture Extranet Vie",
+      "customFieldValue" : null,
+      "mandatory" : false,
+      "customFieldType" : "STRING"
+    }, {
+      "identifier" : "modeSortie",
+      "code" : "304",
+      "editable" : true,
+      "label" : "Modalité de sortie",
+      "customFieldValue" : null,
+      "mandatory" : false,
+      "customFieldType" : "STRING_LOV_TYPE",
+      "customFieldsPossibleValues" : [ {
+        "code" : "731",
+        "id" : "Cap",
+        "label" : "Capital"
+      }, {
+        "code" : "730",
+        "id" : "Mix",
+        "label" : "Mixte"
+      }, {
+        "code" : "732",
+        "id" : "Rent",
+        "label" : "Rente"
+      } ]
+    }, {
+      "identifier" : "RUDEV",
+      "code" : "305",
+      "editable" : true,
+      "label" : "RUDEV",
+      "customFieldValue" : null,
+      "mandatory" : false,
+      "customFieldType" : "STRING"
+    } ]
+  },
+  "coverages":
+  {
+    "code" : "61",
+    "data" : [ {
+      "capital" : 0,
+      "code" : "88",
+      "endDate" : "2160-02-18",
+      "currency" : "EUR",
+      "label" : "Garantie complémentaire ARS",
+      "startDate" : "2010-02-19",
+      "insuredPersons" : [ {
+        "name" : "First Name 390779 Name 864012",
+        "identifier" : "0003379663",
+        "code" : "88"
+      } ]
+    }, {
+      "capital" : 0,
+      "code" : "87",
+      "endDate" : "2160-02-18",
+      "currency" : "EUR",
+      "label" : "Garantie décès",
+      "startDate" : "2010-02-19",
+      "insuredPersons" : [ {
+        "name" : "First Name 390779 Name 864012",
+        "identifier" : "0003379663",
+        "code" : "88"
+      }, {
+        "name" : "First Name 390779 Name 864012",
+        "identifier" : "0003379663",
+        "code" : "87"
+      } ]
+    } ]
+  },
+  "INVESTMENT":
+  {
+    "code" : "273",
+    "data" : {
+      "code" : "514",
+      "investment" : {
+        "code" : "145",
+        "strategyLabel" : "Stratégie Libre",
+        "strategyIdentifier" : "ARS_LIBRE",
+        "strategyType" : "Customer Driven",
+        "investmentParameters" : [ {
+          "identifier" : "beginDate",
+          "code" : "866",
+          "editable" : true,
+          "genericParameterValue" : "2010-02-19",
+          "label" : null,
+          "mandatory" : true,
+          "advance" : false,
+          "genericParameterType" : "DATE"
+        }, {
+          "identifier" : "duration",
+          "code" : "865",
+          "editable" : true,
+          "genericParameterValue" : "1800",
+          "label" : null,
+          "mandatory" : true,
+          "advance" : false,
+          "genericParameterType" : "INTEGER"
+        }, {
+          "identifier" : "durationUnit",
+          "code" : "867",
+          "editable" : true,
+          "genericParameterValue" : "MONTHS",
+          "label" : null,
+          "mandatory" : true,
+          "advance" : false,
+          "genericParameterType" : "DP"
+        }, {
+          "identifier" : "paymentDuration",
+          "code" : "868",
+          "editable" : true,
+          "genericParameterValue" : "1",
+          "label" : null,
+          "mandatory" : false,
+          "advance" : false,
+          "genericParameterType" : "INTEGER"
+        }, {
+          "identifier" : "paymentPeriodicity",
+          "code" : "869",
+          "editable" : true,
+          "genericParameterValue" : "ANN",
+          "label" : null,
+          "mandatory" : false,
+          "advance" : false,
+          "genericParameterType" : "PERIODICITY"
+        }, {
+          "identifier" : "premiumType",
+          "code" : "870",
+          "editable" : true,
+          "genericParameterValue" : "UNIQUEPREM",
+          "label" : null,
+          "mandatory" : true,
+          "advance" : false,
+          "genericParameterType" : "PT"
+        } ],
+        "investmentSituation" : {
+          "valuationDate" : "2024-03-15",
+          "currency" : "EUR",
+          "code" : "145",
+          "globalValuation" : 73757.0205759,
+          "assetAllocations" : [ {
+            "split" : 1.0,
+            "code" : "286",
+            "units" : 73309.8305759,
+            "valuation" : {
+              "currency" : "EUR",
+              "valuationAmount" : 73757.02,
+              "code" : "1192"
+            },
+            "financialInstrument" : {
+              "identifier" : "EURO_ARS",
+              "code" : "165",
+              "latestNavDate" : "2024-03-15",
+              "label" : "Compartiment Euro",
+              "financialInstrumentType" : "GUARANTEED_RATE",
+              "isinCode" : null,
+              "latestNav" : {
+                "navValue" : 1.0,
+                "code" : "165"
+              }
+            }
+          } ]
+        }
+      }
+    }
+  },
+  "avenant":
+  {
+    
+    "transactionType":"ENDORSEMENT",
+    "code":"406",
+    "policyNumber":"C000685",
+    "externalIdentifier":"60000001",
+    "propositionNumber":"60000001",
+    "effectiveDate":"2023-06-24",
+    "endorsementType":{
+       "identifier":"WITHDRAWAL",
+       "code":"115161",
+       "label":"Rachat Partiel"
+    },
+    "endorsementSubType":{
+       "identifier":"GLOBAL_PROPORTIONAL_AMOUNT",
+       "code":"115162",
+       "label":"Montant proportionnel"
+    },
+    "status":{
+       "identifier":"INJECTEDWITHOUTSUBMIT",
+       "code":"115163",
+       "label":"Injectée sans soumettre"
+    }
+ },
+ "request":
+  {
+    
+    "transactionType":"REQUEST",
+    "code":"406",
+    "policyNumber":"C000685",
+    "externalIdentifier":"60000001",
+    "propositionNumber":"60000001",
+    "effectiveDate":"2023-06-24",
+    "endorsementType":{
+       "identifier":"WITHDRAWAL",
+       "code":"115161",
+       "label":"Rachat Partiel"
+    },
+    "endorsementSubType":{
+       "identifier":"GLOBAL_PROPORTIONAL_AMOUNT",
+       "code":"115162",
+       "label":"Montant proportionnel"
+    },
+    "status":{
+       "identifier":"INJECTEDWITHOUTSUBMIT",
+       "code":"115163",
+       "label":"Injectée sans soumettre"
+    }
+ }
+    }
